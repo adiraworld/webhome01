@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Hybrid App UI frameworks</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet"href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <scriptsrc="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <scriptsrc="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type='text/javascript'>
+
+  function OnClickIonicLink()
+  {
+//    var newURL = "http://" + location.host + ":5000/";
+    var newURL = "http://ioconf.herokuapp.com/";
+    //window.open(newURL, '_blank');
+
+    location.href = newURL;              // 이동전 주소가 보임
+
+  }
+
+  </script>
 </head>
 <body>
 
 <div class="container">
   <h1>Hybrid App UI frameworks</h1>
   <br/>
-  <h3><a href="http://showcase.ionicframework.com/" target="_blank">ionic framework</a></h3>
-  <p>This is some text.</p>
+  <!-- <h3><a onclick="OnClickIonicLink()">ionic framework - example 1</a></h3> -->
+  <h3><a href="http://ioconf.herokuapp.com/" target="_blank">ionic framework - example 1</a></h3>
+  <h3><a href="http://devgirl.org/files/MediaExplorerMobile/www/#/menu/home" target="_blank">ionic framework - example 2</a></h3>
+  <h3><a href="http://www.idangero.us/framework7/apps/Bug-Reporter7/" target="_blank">framework 7 - example 1</a></h3>
+  <h3><a href="http://devgirl.org/files/MediaExplorerMobileOnsenUI/www/" target="_blank">onsenUI - example 1</a></h3>
+  <h3><a href="https://www.youtube.com/watch?v=8Qi-WXWx_Xo" target="_blank">Famo.us - example 1</a></h3>
+  <h3><a href="http://demos.telerik.com/kendo-ui/mobile-apps/sushi/" target="_blank">Kendo UI - example 1</a></h3>
+  <!-- <h3><a href="http://127.0.0.1:5000/" target="_blank">ionic framework</a></h3> -->
+
 </div>
 
 </body>
